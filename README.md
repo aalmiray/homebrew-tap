@@ -17,7 +17,7 @@ $ brew install <formula>
 Invoke the following command if the formula is *not* hosted at GitHub
 
 ```sh
-brew tap aalmiray/homebrew-tap <git-clone-url>
+brew tap aalmiray/homebrew-tap https://github.com/aalmiray/.git
 brew install <formula>
 ```
 
