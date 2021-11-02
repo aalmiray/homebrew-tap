@@ -3,7 +3,7 @@ class App < Formula
   homepage "https://acme.com/wesome-app"
   version "1.0.0"
   url "https://github.com/aalmiray/app/releases/download/v1.0.0/app-1.0.0.zip"
-  sha256 "9242d22b5740eca37a5e5eb0c6f519eadd2e54bc1802a6cd84f1871b029d93c2"
+  sha256 "10c5c288b3dffa7b1ab3009b8c8239b42e9b3adf18a1400b61760bdd4ca3bfab"
   license "Apache-2.0"
 
   depends_on "openjdk@8"
