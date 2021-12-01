@@ -1,9 +1,9 @@
 class App < Formula
   desc "Sample application"
   homepage "https://acme.com/wesome-app"
-  version "1.0.0"
   url "https://github.com/aalmiray/app/releases/download/v1.0.0/app-1.0.0.zip"
-  sha256 "a67f121191ea8615bdc4467c20aa6a07fcd8fd463da9c93a6d3240149b4820d1"
+  version "1.0.0"
+  sha256 "d0a967a99ec5246a329ee7432fd1c418079560221880500afdd1d7f6df745084"
   license "Apache-2.0"
 
   depends_on "openjdk@8"
