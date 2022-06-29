@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.0.0 at 2022-06-02T19:01:09.224+02:00
+# Generated with JReleaser 1.0.0 at 2022-06-30T01:46:33.352+02:00
 class App < Formula
   desc "Sample application"
   homepage "https://acme.com/wesome-app"
   url "https://github.com/aalmiray/app/releases/download/v1.0.0/app-1.0.0.zip"
   version "1.0.0"
-  sha256 "486e719bcee18f5850b70b17ec685c431209681b56c4b244a34ac05885c9cde2"
+  sha256 "d46b972ab460f1f7e6e1ba6b8a209a27bd8b3c816a565bfd3f4701b6750a7f30"
   license "Apache-2.0"
 
   depends_on "openjdk@8"
