@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.6.0-SNAPSHOT at 2023-04-27T15:03:57.261203+02:00
+# Generated with JReleaser 1.6.0-SNAPSHOT at 2023-04-27T15:04:37.585573+02:00
 class App < Formula
   desc "app -- Sample Quarkus CLI application"
   homepage "https://github.com/aalmiray/app"
