@@ -1,13 +1,12 @@
-# Generated with JReleaser 1.3.1 at 2022-11-11T01:27:57.619+01:00
+# Generated with JReleaser 1.6.0-SNAPSHOT at 2023-04-27T15:03:57.261203+02:00
 class App < Formula
-  desc "Sample application"
-  homepage "https://acme.com/awesome-app"
-  url "https://github.com/aalmiray/app/releases/download/v1.0.0/app-1.0.0.zip"
-  version "1.0.0"
-  sha256 "6f501b5db2a2d62aa431e0a6756109dffdf18b8411a9f504bc1a540bba8a882b"
+  desc "app -- Sample Quarkus CLI application"
+  homepage "https://github.com/aalmiray/app"
+  url "https://github.com/aalmiray/app/releases/download/v1.0.0.Aplha1/app-1.0.0.Aplha1-osx-x86_64.zip"
+  version "1.0.0.Aplha1"
+  sha256 "85c9918b23e3ac4ef64d5dd02714e241231d3f1358afdba09d3fd0b9a889e131"
   license "Apache-2.0"
 
-  depends_on "openjdk@8"
 
   def install
     libexec.install Dir["*"]
@@ -16,6 +15,6 @@ class App < Formula
 
   test do
     output = shell_output("#{bin}/app --version")
-    assert_match "1.0.0", output
+    assert_match "1.0.0.Aplha1", output
   end
 end
